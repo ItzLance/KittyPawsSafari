@@ -1,0 +1,88 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width= device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Kitty Paws Safari</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="style/sass.css">
+  </head>
+<body onload="loadCartData()">
+    <div class="container-fluid" >
+     <header style="font-size: 2rem;">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-light pt-4 pb-4" style="font-size: 1rem!;" >
+  <a class="navbar-link text-dark mr-5" href="index.html" style="text-decoration: none;">Kitty Paws Safari</a>
+  <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav text-light">
+      <li class="nav-item active">
+        <a class="nav-link text-dark " href="#">Contact Us <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="display nav-item">
+        <a class="nav-link text-dark" href="aboutUs.html">About Us</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="shop.html">Shop</a>
+      </li>
+    </ul>
+  </div> 
+      <a class="btn btn-dark btn-lg mr-5" href="signIn.html" role="button">Login</a>
+ <a class="btn btn-dark" href="checkout.html" role="button">
+     <svg width="2em" height="2.2em" viewBox="0 0 16 16" class="bi bi-bag" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M8 1a2.5 2.5 0 0 0-2.5 2.5V4h5v-.5A2.5 2.5 0 0 0 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5H2z"/>
+        </svg>Basket
+    </a>         
+</nav>
+ </header>
+</div>
+ <div class="container-fluid">
+  <main>
+	   <div class="card-body float-right col-lg-3 text-center bg-light ">
+    <h2 class="card-title">Your Items</h2>
+    <p class="card-text pt-4 pb-2">Items: 1 </p>
+    <p class="card-text pt-4 pb-2" id="itemDisplayPrice">Total: €0.00 </p>
+    <a href="payment.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Buy Now</a>
+  </div>
+    <div class="card  mt-3 checkout-card col-sm-12 col-md-12 col-lg-8" id="checkCard">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="Images/lionPlushy.jpg" class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h2 class="card-title pt-4">Lion Plushy</h2>
+        <p class="card-text" id="basketPrice">€5.50</p>
+   <div class="form-row align-items-center">
+    <div class="col-auto my-1">
+      <label class="mr-sm-2" for="inlineFormCustomSelect">Preference</label>
+      <select class="custom-select mr-sm-2" id="quantityAmount">
+        <option selected>Quantity</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+    </div>
+    <div class="col-auto my-1">
+    </div>
+    <div class="col-auto my-1">
+      <button type="submit" class="btn btn-danger mt-4" id="checkout-remove">Remove</button>
+    </div>
+  </div>
+      </div>
+    </div>
+  </div>
+</div>
+    </main>
+<nav class="navbar fixed-bottom navbar-expand-lg navbar-dark bg-dark pt-4 pb-4" id="cartBottom-nav">
+<p class="text-white pl-5" style="font-size: 2em;">Total:</p>
+<p class="text-white pl-2 pr-5">(Price goes here)</p>    
+</nav>
+    </div>
+	<script src="scripts/basketValidate.js"></script>
+	<script src="scripts/custom.jsscripts/custom.js"></script>
+    </body>
+</html>

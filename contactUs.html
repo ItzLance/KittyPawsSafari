@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width= device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Kitty Paws Safari</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+     <link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="style/sass.css">
+  </head>
+<body onload="loadCartData">
+    <div class="container-fluid" >
+     <header style="font-size: 2rem;">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-light pt-4 pb-4" style="font-size: 1rem!;" >
+  <a class="navbar-link text-dark mr-5" href="index.html" style="text-decoration: none;">Kitty Paws Safari</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav text-light">
+      <li class="nav-item active">
+        <a class="nav-link text-dark " href="#">Contact Us <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="display nav-item">
+        <a class="nav-link text-dark" href="aboutUs.html">About Us</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="shop.html">Shop</a>
+      </li>
+    </ul>
+  </div> 
+     <a class="btn btn-dark btn-lg mr-5" href="signIn.html" role="button">Login</a>
+   <a class="btn btn-dark" href="checkout.html" role="button">
+     <svg width="2em" height="2.2em" viewBox="0 0 16 16" class="bi bi-bag" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M8 1a2.5 2.5 0 0 0-2.5 2.5V4h5v-.5A2.5 2.5 0 0 0 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5H2z"/>
+        </svg>Basket
+    </a>        
+</nav>
+ </header>
+    <main>
+         <div class="row no-gutters carousel-bg ">
+    <div class="col-md-12 col-lg-5">
+      <img src="Images/storeslider.jpg" class="card-img carousel-img mt-5 mb-5" alt="kid_with_tiger_plushy">
+    </div>
+    <div class="col-md-12 col-lg">
+      <div class="card-body " id="cardBdy">
+        <h1 class="card-title text-light text-center">Get In touch with us</h1>
+        <p class="card-text text-center" id="head-text">Have any questions? get in touch with our team reguarding your query. </p>
+           <p class="card-text text-center" id="head-text">Our office hours: </p>
+<table class="table text-center">
+  <thead>
+    <tr>
+      <th scope="col">Monday-Friday</th>
+      <th scope="col">Saturday-Sunday</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>9am - 8pm</td>
+      <td>10am - 5pm</td>
+    </tr>
+    <tr>
+  </tbody>
+</table>
+      </div>
+    </div>
+  </div>
+        <h2 class="text-center pt-5">Tell us your query here</h2>
+ <form class="mt-5" style="background-color: #cccccc">
+    <div class="container">
+
+  <div class="form-group text-center pb-5" id="formQuery">
+      <div class="form-group">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control col-md-7 col-lg" id="emailValue" placeholder="Email" required>
+    </div>
+ <div class="form-group">
+    <label for="textBody">Enter your query</label>
+    <textarea class="form-control mb-5" id="textBody" rows="8" maxlength="500" placeholder="Enter Your Query Here"></textarea>
+  </div>
+    <button type="button" class="btn btn-secondary btn-lg">Submit Query</button>
+  </div>
+    </div>
+        </form>
+        </main>
+    <footer class="page-footer font-small  bg-dark mt-5">
+
+  <!-- Footer Links -->
+  <div class="container text-white">
+
+    <!-- Grid row-->
+    <div class="row text-center d-flex justify-content-center pt-5 mb-3  ">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mb-3 text-white">
+        <h6 class="text-uppercase font-weight-bold text-white">
+          <a href="#!" class="text-white">Home</a>
+        </h6>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 mb-3 ">
+        <h6 class="text-uppercase font-weight-bold  ">
+          <a href="#!" class="text-white">Our Cats</a>
+        </h6>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="#!" class="text-white">About Us</a>
+        </h6>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="#!" class="text-white">Shop</a>
+        </h6>
+      </div>
+      <!-- Grid column -->
+    </div>
+    <!-- Grid row-->
+    <hr class="rgba-white-light" style="margin: 0 15%;">
+
+    <!-- Grid row-->
+    <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+
+      <!-- Grid column -->
+      <div class="col-md-8 col-12 mt-5">
+        <p style="line-height: 1.7rem"></p>
+      </div>
+    </div>
+    </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3 footer-text">© 2020 Copyright: Kitty Paws Safari 
+  </div>
+</footer>
+    </div>
+	<script src="scripts/KittyPawsJS.js"></script>
+	<script src="scripts/custom.js"></script>
+    </body>
+</html>
