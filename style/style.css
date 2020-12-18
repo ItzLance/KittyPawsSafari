@@ -1,0 +1,159 @@
+.container-fluid{
+padding: 0;
+}
+header nav{
+border: 0;
+}
+.header-style{
+border-radius: 0px;
+border: 0!important;
+}
+#headerTxt{
+	color: black;
+}
+#cardOverlay{
+	border-radius: 0px!important;
+	border: 0px!important
+}
+#card-header{
+border: 0px;
+}
+#card-styling{
+border: 0px;
+}
+.card-imgT{
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+}
+.card-infoB{
+border-bottom-right-radius: 30px;
+border-bottom-left-radius: 30px;
+box-shadow: 0 6px 2px -2px gray;
+}
+.card-price{
+ font-size: 2rem;
+}
+.card-h{
+ font-size: 2.3rem;
+}
+.btn-add{
+ border-radius: 15px;
+ font-size: 1.5em;
+}
+footer a{
+    color: black;
+}
+#bottomNav{
+border-top: 1px solid white;
+}
+#head-text{
+font-size: 1.5rem;
+}
+.checkout-card{
+background-color: #e8e8e8;
+border: 0px;
+border-radius: 10px;
+}
+.checkout-card img{
+ border-radius: 0px;
+}
+.checkout-card h2{
+ font-size: 3em;
+}
+.checkout-card p{
+ font-size: 2em;
+}
+.checkout-basket{
+    font-size: 2em;
+    background-color: #cfcfcf;
+    border: 0px;
+}
+.checkout-basket button{
+    font-size:1em;
+    border-radius: 15px;
+}
+.form-container{
+    background-color:#cfcfcf;
+}
+.register-btn button{
+    border-radius: 15px;
+    box-shadow: 0 3px 2px -2px gray;
+}
+.register-bg{
+background-color: #cfcfcf;
+}
+.carousel-bg{
+ background-color: #a8a8a8;
+}
+.footer-text{
+  font-size: 1.5rem;
+  color: white
+}
+@media(min-width: 1200px){
+    #cardBdy{
+        padding-top: 30%;
+    }
+    #cartBottom-nav{
+     display: none;
+    }
+    .carousel-img{
+    border-radius: 4500px;
+}
+}
+.signup{
+margin-bottom: 5%
+ }
+
+@media(max-width: 992px) {
+    #cardBdy{
+        padding-top: 15%;
+    }
+    #cardBdy h1{
+        font-size: 3em;
+    }
+    #cardBdy p{
+        font-size: 1.4em;
+    }
+       #cartBottom-nav{
+     display:inline-block;
+    }
+    .checkout-basket{
+        
+    }
+    .checkout-card{
+    min-width: 80%;
+  }
+	#head-text{
+		font-size: 1.5rem;
+	}
+	#headerTxt{
+		padding-top:2%!important;
+	}
+	
+    .signup{
+margin-bottom: 8%
+ }
+nav ul li a {
+		color: red !important;
+    }
+}
+@media(max-width:768px){
+    .header-style{
+        padding-top:0;
+        border: 0;
+    }
+	#basket-card{
+    max-width:100%!important;
+	}
+	#aboutUsImg{
+		margin-top: 0%!important;
+	}
+	.header-style h1{
+		padding-top:0%!important;
+		font-size: 3vh;
+	}
+	#carosusel-contain{
+		margin-top: 0!important;
+}
+	
+}
