@@ -1,0 +1,146 @@
+$input-color: #bfbfbf;
+$hover-color: dimgrey;
+$button-hover: #d4d4d4;
+$button-color:#4d4d4d;
+$label-color: #000000;
+$box-shadows: 0 5px 15px rgba(0,0,0,.5);
+$box-radius: 25px;
+$transition-period: 0.5s;
+$box-padding:5%;
+$box-radiusTwo: 15px;
+$remove-border: 0px;
+
+
+#paymentCard{
+	border-radius: $box-radius!important;
+    box-shadow: $box-shadows;
+}
+#payment-details{
+	a{
+		border-radius: $box-radius!important;
+		box-shadow:$box-shadows;
+		background-color: $button-color;
+		color: white;
+		border-color: $input-color;
+		
+	}
+	a:hover{
+		transition: $transition-period;
+		background-color: $button-hover;
+     }
+}
+#paymentForm{
+	
+ input{
+     border-color: $input-color;
+     border-radius: 15px!important;
+	 padding: $box-padding!important;
+	}
+	input:hover{
+	border-color: $hover-color;
+	}
+	label{
+	  color: $label-color!important;
+	}
+}
+
+#card-styling{
+	
+	button{
+		border-radius: $box-radius;
+	}
+	button:hover{
+		transition: $transition-period;
+		background-color: $input-color;
+		box-shadow: $box-shadows;
+	}
+}
+#formQuery{
+	input{
+		border-radius: $box-radiusTwo!important;
+		
+	}
+	input:hover{
+		border-color: $label-color;
+	}
+	#textBody{
+		border-radius: $box-radiusTwo;
+	}
+	#textBody:hover{
+		border-color: $label-color;
+	}
+	button{
+    background-color:$button-color;
+	border-radius: $box-radius!important;
+	}
+	button:hover{
+		transition: $transition-period;
+		background-color: $button-hover;
+		box-shadow: $box-shadows;
+	}
+}
+#signInForm{
+	input{
+		border-radius: $box-radius!important;
+		padding: $box-padding!important;
+
+	}
+	input:hover{
+		border-radius: $hover-color!important;
+		border-color: $label-color;
+	}
+	button{
+		border: 0px!important;
+		border-radius: $box-radius;
+		background-color: $button-color;
+	}
+	button:hover{
+		transition: $transition-period;
+		background-color: $button-hover;
+		box-shadow: $box-shadows;	
+	}
+	a{
+	border-radius: $box-radius;
+  }
+	a:hover{
+		border: 0px!important;
+		transition: $transition-period;
+		background-color: $button-hover;
+		box-shadow: $box-shadows;
+	}
+}
+#registeredForm{
+	input{
+		border-radius: $box-radius!important;
+		padding: $box-padding!important;
+	}
+	input:hover{
+		border-color: $label-color;
+	}
+	select{
+		border-radius: $box-radius!important;
+		padding: $box-padding!important;
+    }
+	a{
+	  border-radius: $box-radius!important;
+	}
+	a:hover{
+		border: 0px!important;
+		transition: $transition-period;
+		background-color: $button-hover;
+		box-shadow: $box-shadows;
+	}
+}
+#checkCard{
+	#quantityAmount:hover{
+	border-color:$label-color;
+	}
+	button{
+		border-radius: $box-radius!important;
+	}
+	button:hover{
+	 background-color: #fa1b32;
+	 transition: $transition-period;
+	 border: 1px solid #fa1b32;
+	}
+}
